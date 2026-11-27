@@ -79,11 +79,13 @@ $$
 +\frac{N_2}{R}i_2
 +\cdots
 +\frac{N_n}{R}i_n
-\right) \\[6pt]
+\right)
+\\[6pt]
 &= \frac{N_nN_1}{R}i_1
 +\frac{N_nN_2}{R}i_2
 +\cdots
-+\frac{N_nN_n}{R}i_n \\[6pt]
++\frac{N_nN_n}{R}i_n
+\\[6pt]
 &= M_{n1}i_1
 +M_{n2}i_2
 +\cdots
@@ -242,17 +244,20 @@ $$
 ![image](image/漏れ磁束.png)
 
 $$
-\psi_1 = N_1\phi_1 = N_1(\phi_{l1} + \phi_{C1} + \phi_{C2})\\
-\psi_2 = N_2\phi_2 = N_2(\phi_{l2} + \phi_{C1} + \phi_{C2})\\
+\psi_1 = N_1\phi_1 = N_1(\phi_{l1} + \phi_{C1} + \phi_{C2})
+\\
+\psi_2 = N_2\phi_2 = N_2(\phi_{l2} + \phi_{C1} + \phi_{C2})
 $$
 
 $$
-\phi_{l1} = \frac{N_1i_1}{R_{l1}},　
-\phi_{l2} = \frac{N_2i_2}{R_{l2}},　
-\phi_{C1} = \frac{N_1i_1}{R_{c}},　
-\phi_{C2} = \frac{N_2i_2}{R_{c}}\\
-
-R_{l1}, R_{l2}:\text{漏れ磁束に対する磁気抵抗}\\
+\phi_{l1} = \frac{N_1i_1}{R_{l1}}, 
+\phi_{l2} = \frac{N_2i_2}{R_{l2}}, 
+\\
+\phi_{C1} = \frac{N_1i_1}{R_{c}},
+\phi_{C2} = \frac{N_2i_2}{R_{c}}
+\\
+R_{l1}, R_{l2}:\text{漏れ磁束に対する磁気抵抗}
+\\
 R_c:\text{主磁束に対する磁気抵抗}
 $$
 

@@ -79,10 +79,10 @@
 
 ![image](image/誘導起電力.png)
 
-磁束密度$B\mathrm{[T]}$  
-電機子：軸方向長さ$L\mathrm{[m]}$，直径$D\mathrm{[m]}$，回転数$n\mathrm{[rps]}$(1秒に$n$回転)
+磁束密度 $B\mathrm{[T]}$  
+電機子：軸方向長さ $L\mathrm{[m]}$ ，直径 $D\mathrm{[m]}$ ，回転数 $n\mathrm{[rps]}$ (1秒に$n$回転)
 
-導体の周辺速度(コイルの移動速度)を$v\mathrm{[m/s]}$とすると
+導体の周辺速度(コイルの移動速度)を $v\mathrm{[m/s]}$ とすると
 
 $$
 e = vBL　\mathrm{[V]}\tag{4.1}
@@ -93,12 +93,15 @@ $$
 $$
 v = \pi Dn　\mathrm{[m/s]}
 $$
+
 よって
+
 $$
 e = \pi DnBL　\mathrm{[V]}\tag{4.2}
 $$
 
-ここで，極数を$p$，一極あたりの磁束を$\Phi$とすると電機子周辺の全磁束は
+ここで，極数を $p$ ，一極あたりの磁束を $\Phi$ とすると電機子周辺の全磁束は
+
 $$
 p\Phi = \pi DBL\\
 \therefore
@@ -106,29 +109,31 @@ B = \frac{p\Phi}{\pi DL}
 $$
 
 したがって式(4.2)よりコイル一つあたりの誘導起電力は
+
 $$
 e = p\Phi n　\mathrm{[V]}\tag{4.3}
 $$
 
 ---
 
-これを踏まえて，コイル数を$m$，1個のコイルの巻き数を$N$とすると全導体数$Z$は
+これを踏まえて，コイル数を $m$ ，1個のコイルの巻き数を $N$ とすると全導体数 $Z$ は
 
 $$
 Z = 2mN
 $$
+
 (2はコイル1巻で行って帰る分)
 
-また並列回路数を$a$とすると，$Z/a$の導体が直列に接続されるから，端子間の誘導起電力$E_a$は，
+また並列回路数を $a$ とすると， $Z/a$ の導体が直列に接続されるから，端子間の誘導起電力 $E_a$ は，
 
 $$
 E_a = \frac{eZ}{a}
 = \frac{Zp\Phi n}{a}　\mathrm{[V]}　\because (4.3)より
 $$
 
-ここで，角速度を$\omega\mathrm{[rad/s]}$とすると，$\omega=2\pi n$，すなわち$n=\omega/2\pi$
+ここで，角速度を $\omega\mathrm{[rad/s]}$ とすると， $\omega=2\pi n$ ，すなわち $n=\omega/2\pi$
 
-したがって端子間の誘導起電力$E_a$は次のように表される．
+したがって端子間の誘導起電力 $E_a$ は次のように表される．
 
 $$
 E_a = K\Phi\omega　\mathrm{[V]}
@@ -145,13 +150,13 @@ $$
 ![iamge](image/トルク.png)
 
 条件はさっきと一緒．  
-端子から流入する電流を$I_a$，並列回路数を$a$とすると，導体1本に流れる電流は
+端子から流入する電流を $I_a$ ，並列回路数を $a$ とすると，導体1本に流れる電流は
 
 $$
 I = \frac{I_a}{a}
 $$
 
-導体1本に生じる電磁力$F$は，
+導体1本に生じる電磁力 $F$ は，
 
 $$
 \begin{aligned}
@@ -162,13 +167,13 @@ F &= IBL = \frac{BLI_a}{a}　\mathrm{[N]}
 \end{aligned}
 $$
 
-巻線$N$のコイルを$m$個設置した電機子全体の導体数は
+巻線 $N$ のコイルを $m$ 個設置した電機子全体の導体数は
 
 $$
 Z = 2mN
 $$
 
-電機子全体に働く全トルク$T$は，
+電機子全体に働く全トルク $T$ は，
 
 $$
 \begin{aligned}
@@ -188,24 +193,26 @@ T_a = K\Phi I_a　\mathrm{[Nm]}
 \left(K=\frac{Zp}{2\pi a}\right)
 $$
 
-トルク$\propto$磁束，電機子電流
+トルク $\propto$ 磁束，電機子電流
 
 ---
 
 #### まとめ
 発電機：誘導起電力
+
 $$
 E_a = K\Phi\omega　\mathrm{[V]}
 $$
 
 電動機：トルク
+
 $$
 T_a = K\Phi I_a　\mathrm{[N\cdot m]}
 \\[6pt]
 \left(KはいずれもK = \frac{Zp}{2\pi a}\right)
 $$
 
-回転角速度$\omega$で運転しているときは
+回転角速度 $\omega$ で運転しているときは
 
 $$
 T_a\omega_m = (K_a\Phi I_a)\omega_m
